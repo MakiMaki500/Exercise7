@@ -8,7 +8,7 @@ package exercise7;
  *
  * @author PHOTON
  */
-public class NPC extends Character {
+public class NPC extends Character implements Interactive {
     private String dialog;
 
     public NPC(String n){

@@ -10,7 +10,7 @@ import java.util.ArrayList;
  *
  * @author PHOTON
  */
-public class Trainer extends Character {
+public class Trainer extends Character  implements Interactive {
     private Monster activeMonster;
     private ArrayList<Monster> team;
 

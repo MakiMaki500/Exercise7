@@ -2,11 +2,11 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package exercise6;
+package exercise7;
 
 import java.util.ArrayList;
 
-public class Monster {
+public abstract class Monster {
     protected final String name, type, strongAgainst, weakAgainst;
     protected int maxHP, hp, atk, def, xp, lvl;
     private boolean guard, charge;
@@ -97,9 +97,7 @@ public class Monster {
         System.out.println(name + " rested. It's health is now " + hp + ".");
     }
 
-    public void special(){
-        System.out.println(name + " did a pose.");
-    }
+    abstract void special();
 
     public void resetHealth(){
         hp = maxHP;

@@ -10,7 +10,7 @@ package exercise7;
  */
 import java.util.*;
 
-public class Location {
+public class Location implements Interactive {
     private String name;
     private ArrayList<Character> personList;
     private String localSpecialty;
