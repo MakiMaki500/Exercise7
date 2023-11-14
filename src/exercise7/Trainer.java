@@ -48,5 +48,7 @@ public class Trainer extends Character {
         activeMonster.attack(t.getActiveMonster());
     }
     
-    
+    public void inspect(Interactive i){
+        i.interact();
+    }
 }
