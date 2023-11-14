@@ -27,4 +27,9 @@ public class NPC extends Character implements Interactive {
         super(n, l);
         this.dialog = d;
     }
+    
+    @Override
+    public void interact(){
+        System.out.println("Welcome to our town, traveler!");
+    }
 }

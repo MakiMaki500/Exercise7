@@ -8,6 +8,6 @@ package exercise7;
  *
  * @author PHOTON
  */
-public abstract class Interactive {
+public interface Interactive {
     abstract void interact();
 }
