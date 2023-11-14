@@ -29,6 +29,9 @@ public class Location implements Interactive {
     public String getName(){
         return name;
     }
+    public String getSpecialty(){
+        return localSpecialty;
+    }
     public ArrayList<Character> getPersonList(){
         return personList;
     }
@@ -41,6 +44,6 @@ public class Location implements Interactive {
     
     @Override
     public void interact(){
-        
+        System.out.println("Specialty: "+getSpecialty());
     }
 }

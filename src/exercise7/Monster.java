@@ -6,7 +6,7 @@ package exercise7;
 
 import java.util.ArrayList;
 
-public abstract class Monster {
+public abstract class Monster implements Interactive{
     protected final String name, type, strongAgainst, weakAgainst;
     protected int maxHP, hp, atk, def, xp, lvl;
     private boolean guard, charge;
@@ -131,6 +131,10 @@ public abstract class Monster {
         m1.resetHealth();
         m2.resetHealth();
         System.out.println("ggwp");
+    }
+    @Override
+    public void interact(){
+        System.out.println("Name: "+name+"Type: "+type);
     }
 
 }

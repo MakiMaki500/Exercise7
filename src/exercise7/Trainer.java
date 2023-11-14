@@ -10,7 +10,7 @@ import java.util.ArrayList;
  *
  * @author PHOTON
  */
-public class Trainer extends Character implements Interactive {
+public class Trainer extends Character {
     private Monster activeMonster;
     private ArrayList<Monster> team;
 
@@ -48,8 +48,5 @@ public class Trainer extends Character implements Interactive {
         activeMonster.attack(t.getActiveMonster());
     }
     
-    @Override
-    public void interact(){
-        
-    }
+    
 }
