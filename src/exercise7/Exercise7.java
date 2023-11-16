@@ -15,6 +15,14 @@ public class Exercise7 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Location celadon = new Location("Celadon City", "Department Store");
+        Trainer ash = new Trainer("Ash", celadon);
+        FireType flareon = new FireType("Flareon", 100, 30);
+        NPC departmentStoreClerk = new NPC("Department Store Clerk", celadon, "Welcome? Would you like to buy or sell anything?");
+        
+        ash.inspect(celadon);
+        ash.inspect(flareon);
+        ash.inspect(departmentStoreClerk);
     }
     
 }

@@ -44,6 +44,6 @@ public class Location implements Interactive {
     
     @Override
     public void interact(){
-        System.out.println("Specialty: "+getSpecialty());
+        System.out.println(name+" Specialty: "+getSpecialty());
     }
 }

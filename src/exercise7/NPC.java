@@ -30,6 +30,6 @@ public class NPC extends Character implements Interactive {
     
     @Override
     public void interact(){
-        System.out.println("Welcome to our town, traveler!");
+        System.out.println(this.getName()+": Welcome to our town, traveler!");
     }
 }

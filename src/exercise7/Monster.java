@@ -134,7 +134,7 @@ public abstract class Monster implements Interactive{
     }
     @Override
     public void interact(){
-        System.out.println("Name: "+name+"Type: "+type);
+        System.out.println("Name: "+name+" Type: "+type);
     }
 
 }
